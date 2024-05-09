@@ -1,0 +1,141 @@
+.topbtn {
+    position: fixed;
+    bottom: 15px;
+    right: 9px;
+    line-height: 50px;
+    font-weight: 600;
+    padding: 0 20px;
+    background: rgb(13, 220, 203);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    transition: background-color 0.3s ease, filter 0.3s ease;
+    /* Smooth transition for hover effects */
+}
+
+.topbtn:hover {
+    background: linear-gradient(135deg, rgb(13, 220, 203) 0%, rgb(9, 169, 156) 100%);
+    /* Apply gradient on hover */
+    filter: blur(3px);
+    /* Apply blur effect on hover */
+}
+
+.nav-profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: indigo;
+    cursor: pointer;
+}
+
+.page-item {
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, .06);
+    background: #fff;
+    color: #101115;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px;
+}
+
+.github {
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+    transition: all .3s ease;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #0F9D58;
+    color: #fff;
+}
+
+.card {
+    width: 300px;
+    height: 200px;
+    background: #fff;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.card:hover {
+    height: 320px;
+}
+
+.card .imgBx {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 190px;
+    background: #333;
+    border-radius: 0px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card:hover .imgBx {
+    top: -40px;
+    transform: scale(0.75);
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+.card .post-content {
+    position: relative;
+    padding: 0 0px 50px;
+    height: 35px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+}
+
+
+.card:hover .post-content {
+    position: relative;
+    top: 95px;
+    height: 190px;
+
+}
+
+.card .post-content p {
+    color: #333;
+    font-weight: 900;
+}
+
+.post-image {
+    width: 100%;
+    height: 100%;
+    transition: filter 0.3s;
+    filter: blur(1px);
+    /* Initial blur */
+}
+
+.imgBx:hover .post-image {
+    filter: blur(0);
+    /* Clear the blur on hover */
+}
+
+.post-title {
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Initial color */
+    backdrop-filter: blur(5px) saturate(200%);
+    /* Apply blur effect */
+
+    /* Transition for smooth effect */
+    transition: color 0.5s, backdrop-filter 0.5s;
+}
+
+/* Hover effect */
+.post-title:hover {
+    color: #FFD700;
+    /* Change color to black on hover */
+    backdrop-filter: none;
+    background-color: transparent;
+    /* Remove blur effect on hover */
+}
