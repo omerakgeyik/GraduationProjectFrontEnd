@@ -1,2 +1,3 @@
-# GraduationProjectFrontEnd
-UI part of an art-related e-commerce site.
+# React + Vite
+
+For project
