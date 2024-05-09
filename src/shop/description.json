@@ -1,0 +1,14 @@
+{
+    "imgUrl": "/src/assets/images/shop/01.jpg",
+    "imgAlt": "shop",
+    "listItems": [
+        "Donec non est at libero vulputate rutrum.",
+        "Morbi ornare lectus quis justo gravida semper.",
+        "Pellentesque aliquet, sem eget laoreet ultrices.",
+        "Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id nulla.",
+        "Donec a neque libero.",
+        "Pellentesque aliquet, sem eget laoreet ultrices.",
+        "Morbi ornare lectus quis justo gravida semper."
+    ],
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+}
