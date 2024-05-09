@@ -1,3 +1,0 @@
-# React + Vite
-
-For project
